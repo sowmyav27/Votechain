@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Polling Officer View View</title>
+		<link rel="stylesheet" type="text/css" href="Style/main.css" ></link>
+		<link rel="stylesheet" type="text/css" href="Style/ledger.css" ></link>
+		<script src="JavaScript/plugins/jQuery-1.11.3.js" type="text/javascript"></script>
+		<script src="JavaScript/plugins/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+		<script>var pgNm="Regulator"; var pgNmPlural = "regulators"</script>		
+		<script src="JavaScript/ledger/ledger.js" type="text/javascript"></script>
+		<script src="JavaScript/config/config.js" type="text/javascript"></script>
+		<script src="JavaScript/admin/identity.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<table id="mainTbl" class="noFix" >
+			<tr>
+				<td class="smlBrk"></td>
+				<td><span class="rtTxt bldTxt" style="color:#000000">&nbsp;VoteChain</span></td>
+				<td class="smlBrk1"></td>
+				<td class="smlBrk"></td>
+				<td class="smlBrk"></td>
+				<td class="rtTxt2" id="topRw"><img id="logo" src="" alt="company logo" text="company logo" /></td>
+				
+				<!-- <td class="smlBrk"></td> -->
+			</tr>
+			<!-- <tr>
+				<td class="smlBrk"></td>
+				<td><span class="rtTxt bldTxt" style="color:#000000">&nbsp;VoteChain</span></td>
+				<td class="rtTxt"></td>
+				<td class="smlBrk"></td>
+				<td class="rtTxt1" id="topRw"><img id="logo" src="" alt="company logo" text="company logo" /></td>
+				<td class="rtTxt"></td>
+			</tr> -->
+			<tr>
+				<td class="smlBrk brkRw"></td>
+				<td class="brkRw"></td>
+				<td class="smlBrk brkRw"></td>
+				<td class="brkRw"></td>
+				<td class="smlBrk brkRw"></td>
+				<!-- <td class="smlBrk"></td> -->
+				<td class="brkRw"></td>
+				<td class="brkRw"></td>
+			</tr>
+			<tr>
+
+				<td class="smlBrk"></td>
+				<td id="txtBxRw">
+					<a href="index.html" >Home</a>
+				</td>
+				<td class="smlBrk1"></td>
+				<td class="smlBrk"></td>
+				<!-- <td class="smlBrk1"></td> -->
+				<td  id="user" style="color:#cc0000;" style="font-size:1.4em;"class="rtTxt1" ><span id="username" ></span> (Ledger Admin)
+				</td>
+				<!--<td class="rtTxt1" id="user"><span id="userDets" class="txtColorChng" >
+				<span id="username" ></span> (<span id="userType">PO</span>)</span><span class="txtColorChng"></span></td>-->
+				<td class="smlBrk"></td>
+
+
+				<!--<td class="smlBrk"></td>
+				<td colspan="5" class="homeBtn"><a href="index.html" class="txtColorChng" style="font-size: 1.6em" >Home</a>
+				<div id="user" style="font-size: 1.6em" 	class="rtTxt2" ><span id="userDets" class="txtColorChng" >
+				<span id="username" ></span> (<span id="userType">PO</span>)</span></div>
+				<!&nbsp;
+				<span id="menuBtn" class="bdrColorChng" onclick="toggleMenu()" ><div class="menuBar bgColorChng" ></div><div class="menuBar bgColorChng" >
+				</div><span id="userBlock" class="menuWhiteBlock"></span></span></div></td>
+				<td class="smlBrk"></td>-->
+			</tr>
+			<!-- <tr>
+				<td class="smlBrk"></td>
+				<td colspan="5">
+					<div class="usersDropMargin" id="mainMenu" >
+						<div id="users" class="dropDowns txtColorChng bdrColorChng" >
+							<span class="userHdr" >View As...</span>
+						</div>
+					</div>
+					<div class="usersDropMargin" id="endUsers">
+						<div id="theirUsers" class="dropDowns txtColorChng bdrColorChng" >
+						</div>
+					</div>
+				</td>
+				<td class="smlBrk"></td>
+			</tr> -->
+			<tr>
+				<!-- <td class="smlBrk"></td> -->
+								<!-- <td class="smlBrk1"></td> -->
+				<!-- <td class="smlBrk"></td> -->
+				
+
+					<!-- div id="findV5CID" class="bdrColorChng" ><input id="searchBar" class="txtColorChng" type="text" onkeyup="runSearch()" onclick="clearSearch()" value="Search by VID..." /></div> -->
+					<!-- <td class="float1" style="font-size:1.2em" id="filtTxt" class="dropTop txtColorChng bdrColorChng" onclick="toggleFilters()" >Filters &or;<span id="filtBlock" class="whiteBlock" ></span></td>
+					 --><!-- div style="font-size:1.2em" id="sortTxt" class="dropTop txtColorChng bdrColorChng" onclick="toggleSorts()" >Sort &or;<span id="sortBlock" class="whiteBlock" ></span></div> -->
+				<!-- <td  id="filterRw"></td> -->
+				<!-- <td class="smlBrk"></td> -->
+
+			</tr>
+			<tr>
+				<td class="smlBrk brkRw123"></td>
+				<td class="brkRw123"></td>
+				<td class="smlBrk brkRw123"></td>
+				<td class="brkRw123"></td>
+				<td class="smlBrk brkRw123"></td>
+				<!-- <td class="smlBrk"></td> -->
+				<td class="brkRw123"></td>
+				<td class="brkRw123"></td>
+			</tr>
+						
+			<tr>
+			<td class="smlBrk"></td>
+			<td id="transRw11" style="color: #086bea; font-weight: bold; font-family: Georgia;"> VoteID </td>
+			<td	id="transRw11" style="color: #086bea; font-weight: bold; font-family: Georgia;"> Action performed </td>
+			<td	id="transRw11" style="color: #086bea; font-weight: bold; font-family: Georgia;"> Transfer </td>
+			<td class="smlBrk"></td> 
+			<td	id="transRw112"  style="color: #086bea; font-weight: bold; font-family: Georgia;"> Timestamp </td>
+			<!-- <td class="smlBrk"></td> -->
+			</tr>
+			<tr>
+				<td class="smlBrk"></td>
+				<!-- <td colspan="4"></td> -->
+				<td>
+					<div class="dropTopMargins" >
+						<div id="filters" class="dropDowns txtColorChng" >
+							<span class="filterHldr" >Create <span class="filterBox" onclick="hideType(this, 'Create')" ></span></span>
+							<span class="filterHldr" >Transfer <span class="filterBox" onclick="hideType(this, 'Transfer')" ></span></span>
+							<span class="filterHldr" >Update <span class="filterBox" onclick="hideType(this, 'Update')"></span></span>
+							<!-- <span class="filterHldr" >Scrap <span class="filterBox" onclick="hideType(this, 'Scrap')" ></span></span>
+							<span class="filterHldr" >Failures <span class="filterBox" onclick="hideType(this, '[FAILED]')" ></span></span> -->
+						</div>
+					</div>
+					<div class="dropTopMargins" >
+						<div id="sorts" class="dropDowns txtColorChng" >
+							<span class="sortHldr" onclick="sortTime('asc',false)" >Time: newest &rarr; oldest</span>
+							<span class="sortHldr" onclick="sortTime('desc',false)" >Time: oldest &rarr; newest</span>
+							<!-- <span class="sortHldr" onclick="sortV5CID('desc')" >V5C ID: A &rarr; Z</span>
+							<span class="sortHldr" onclick="sortV5CID('asc')" >V5C ID: Z &rarr; A</span> -->
+						</div>
+					</div>
+				</td>
+				<td class="smlBrk"></td>
+			</tr>
+			<tr id='insAft' >
+				<td class="smlBrk"></td>
+				<td  id="space" style="text-align: center"><img class="loader" src="Images/loading.gif" height="50" width="50" alt="loading" text="please wait..." /><br /><br /></td>
+				<td class="smlBrk"></td>
+			</tr>
+			<tr>
+				<td class="smlBrk gapRw"></td>
+				<td class="gapRw"></td>
+				<td class="smlBrk gapRw"></td>
+				<td class="gapRw"></td>
+				<td class="smlBrk gapRw"></td>
+			</tr>
+		</table>
+	</body>
+</html>

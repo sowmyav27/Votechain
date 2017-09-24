@@ -1,0 +1,148 @@
+#topRw span
+{
+	color:#086bea;
+}
+.rtTxt
+{
+	color:#086bea;
+}
+.brkRw
+{
+	background-color:#086bea;
+}
+.txtBx
+{
+	border:2px solid #086bea;
+	color:#086bea;
+}
+.bxHd
+{
+	background-color:#086bea;
+	border:2px solid #086bea;
+}
+.bxMd
+{
+	border:2px solid #086bea;
+}
+.scrlHldr
+{
+	border-left:2px solid #086bea;
+}
+.scrlBr
+{
+	background-color:#086bea;
+}
+.content
+{
+	color:#cc0000;
+}
+.bxBtm
+{
+	border:2px solid #086bea;
+}
+.mnBtn
+{
+	border:2px solid #086bea;
+	color:#086bea;
+}
+.mnBtn:hover
+{
+	color:#CCCCCC;
+}
+.lnkTxt
+{
+	color:#086bea;
+}
+.bordLR
+{
+	border-left:2px solid #086bea;
+	border-right:2px solid #086bea;
+}
+.bordLRB
+{
+	border-left:2px solid #086bea;
+	border-right:2px solid #086bea;
+	border-bottom:2px solid #086bea;
+}
+.bordTLRB
+{
+	border:2px solid #086bea;
+}
+a:active
+{
+	color:#086bea;
+}
+a:visited
+{
+	color:#086bea;
+}
+a:link
+{
+	color:#086bea;
+}
+a:hover
+{
+	color:#086bea;
+	
+}
+#chooseConfMd
+{
+	color:#086bea;
+}
+#vhclsTbl
+{
+	color:#cc0000;
+}
+#vhclsTbl td
+{
+	border-bottom:2px solid #cc0000;
+}
+.vin
+{
+	border-right:2px solid #086bea;
+}
+.chkBx
+{
+	border:2px solid #086bea;
+}
+.radBtn
+{
+	border:2px solid #086bea;
+}
+#selVhclsTbl
+{
+	color:#cc0000;
+}
+#selVhclsTbl td
+{
+	border-bottom:2px solid #086bea;
+}
+
+
+#recsTbl
+{
+	color:#333333;
+}
+#recsTbl td
+{
+	border-bottom:2px solid #086bea;
+}
+#okTransaction
+{
+	border:2px solid #086bea;
+}
+#okTransaction:hover
+{
+	background-color:#086bea;
+	color:#FFF;
+}
+
+/*/////////////////////None Color Stuff////////////////////////////*/
+#createV5C
+{
+	margin-top:0!important;
+}
+#user
+{
+	left:0px!important;
+}
